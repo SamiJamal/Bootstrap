@@ -9,34 +9,52 @@
   <title>Bootstrap</title>
 </head>
 <body>
-<div class="container">
 
   <style>
-    :root {
-      --pink: #C4226F;
-      --danger: #FFBA00;
-
+    img {
+      width: 100%;
+      height: 100px;
+      max-height: 100px;
     }
   </style>
 
+  <div class="container" id="services">
 
-  <section class="content" id="services">
-    <h2 class="text-danger">Our Mission</h2>
-    <p class="bg-danger text-white">Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
-  </section>
+<!-- ROW 1 -->
+  <div class="row bg-info" style="height: 100vh;">
+    <section class="col">
+      <img src="images/image.png" alt="sample image">
+      <h4>Exotic Pets</h4>
+      <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+    </section>
+    <section class="col">
+      <img src="images/image.png" alt="sample image">
+      <h4>Grooming</h4>
+      <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+    </section>
+    <section class="col">
+      <img src="images/image.png" alt="sample image">
+      <h4>General Health</h4>
+      <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings.</p>
+    </section>
+  </div><!-- row -->
 
-  <section class="content" id="testimonials">
-    <h2 style="color: var(--pink); font-family: ;">Testimonials</h2>
+<!-- ROW 2 -->
+  <div class="row bg-warning justify-content-between" style="height: 100vh;">
+    <section class="col-4">
+      <img src="images/image.png" alt="sample image">
+      <h4>Exotic Pets</h4>
+      <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+    </section>
+    <section class="col-4">
+      <img src="images/image.png" alt="sample image">
+      <h4>Grooming</h4>
+      <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+    </section>
+  </div><!-- row -->
 
-    <blockquote class="blockquote">
-      During the summer, our rabbit, Tonto, began to have severe redness  and itching on his belly and feet. I'm very thankful to the veterinarians and staff at Wisdom for the excellent care Tonto received, and for nipping his allergies in the bud, so to speak.
-      <div class="blockquote-footer">
-        Jane
-      </div>
-    </blockquote>
-  </section>
 
-</div><!-- content container -->
+</div><!-- container -->
 
 <script src="js/jquery.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
